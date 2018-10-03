@@ -29,6 +29,10 @@
            :items-by-type-web
            {:fn datomic.ion.starter/items-by-type-web
             :integration :api-gateway/proxy
-            :description "web app that returns info about items with a particular type"}}
+            :description "web app that returns info about items with a particular type"}
+           {:fn ion-starter.core/web-request-handler-ion
+            :integration :api-gateway/proxy
+            :description "generic web app handler"}
+           }
  :app-name "myapp"}
 
