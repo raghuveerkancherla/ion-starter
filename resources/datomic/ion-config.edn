@@ -12,7 +12,7 @@
          ;; web applications
          datomic.ion.starter/items-by-type-web
          datomic.ion.starter/get-tutorial-schema
-         ion-starter.core/web-request-handler-ion
+         ;ion-starter.core/web-request-handler-ion
          ]
  :lambdas {:echo
            {:fn datomic.ion.starter/echo
@@ -31,9 +31,9 @@
            {:fn datomic.ion.starter/items-by-type-web
             :integration :api-gateway/proxy
             :description "web app that returns info about items with a particular type"}
-           {:fn ion-starter.core/web-request-handler-ion
-            :integration :api-gateway/proxy
-            :description "generic web app handler"}
+           ;{:fn ion-starter.core/web-request-handler-ion
+           ; :integration :api-gateway/proxy
+           ; :description "generic web app handler"}
            }
  :app-name "myapp"}
 
