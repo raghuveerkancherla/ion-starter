@@ -11,8 +11,9 @@
 
          ;; web applications
          datomic.ion.starter/items-by-type-web
-         datomic.ion.starter/get-tutorial-schema    
-         ]            
+         datomic.ion.starter/get-tutorial-schema
+         ion-starter.core/web-request-handler-ion
+         ]
  :lambdas {:echo
            {:fn datomic.ion.starter/echo
             :description "Echos input"}
