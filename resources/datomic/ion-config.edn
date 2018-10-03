@@ -30,5 +30,5 @@
            {:fn datomic.ion.starter/items-by-type-web
             :integration :api-gateway/proxy
             :description "web app that returns info about items with a particular type"}}
- :app-name "<YOUR-APP-HERE>"}
+ :app-name "myapp"}
 
