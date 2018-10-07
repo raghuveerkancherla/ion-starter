@@ -1,6 +1,6 @@
 {:output-to "target/public/cljs-out/myapp.js"
  :output-dir "target/public/cljs-out/"
- :optimizations :simple
+ :optimizations :advanced
  :main ion-starter.core
  :source-map-timestamp true
  :source-map "target/public/cljs-out/myapp.js.map"}
