@@ -28,7 +28,7 @@ locally, fill in the correct values in the map."
        :body "Got a api request"}
       {:status 200
        :headers {"Content-Type" "text/html"}
-       :body (slurp "templates/index.html")}))
+       :body (slurp (io/resource "ion-starter/index.html"))}))
 
 (def web-request-handler-ion
   "API Gateway web service ion for items-by-type"
