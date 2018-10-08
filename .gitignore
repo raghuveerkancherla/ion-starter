@@ -2,3 +2,5 @@ classes/*
 target/*
 .cpcache/*
 .idea/*
+.shadow-cljs/*
+node_modules/*

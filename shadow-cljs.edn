@@ -1,0 +1,14 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[fulcrologic/fulcro "2.5.0"]]
+
+ :builds
+ {:app {:target :browser
+        :output-dir "target/public/assets/app/js"
+        :asset-path "/assets/app/js"
+        :module-hash-names true
+        :modules {:main {:entries [ion-starter.core]}}
+        }}}

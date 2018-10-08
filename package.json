@@ -1,0 +1,26 @@
+{
+  "name": "ion-starter",
+  "version": "1.0.0",
+  "description": "Example project from the [Datomic Ions Tutorial](https://docs.datomic.com/cloud/ions/ions-tutorial.html). For more information:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "react": "^16.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datomic/ion-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datomic/ion-starter/issues"
+  },
+  "homepage": "https://github.com/datomic/ion-starter#readme"
+}
