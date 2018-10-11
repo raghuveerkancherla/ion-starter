@@ -1,7 +1,9 @@
 ; Copyright (c) Cognitect, Inc.
 ;; All rights reserved.
 
+
 {:paths     ["src" "resources" "templates" "target"]
+
  :deps      {com.datomic/ion       {:mvn/version "0.9.26"}
              org.clojure/data.json {:mvn/version "0.2.6"}
              org.clojure/clojure   {:mvn/version "1.10.0-beta2"}
