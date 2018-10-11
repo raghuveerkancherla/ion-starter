@@ -4,3 +4,4 @@ target/*
 .idea/*
 .shadow-cljs/*
 node_modules/*
+out/*
