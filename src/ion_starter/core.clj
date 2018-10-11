@@ -6,7 +6,7 @@
     [clojure.pprint :as pp]
     [datomic.client.api :as d]
     [datomic.ion.lambda.api-gateway :as apigw]
-    [ion-starter.components :as system]))
+    [ion-starter.system :as system]))
 
 (def get-client
   "This function will return a local implementation of the client

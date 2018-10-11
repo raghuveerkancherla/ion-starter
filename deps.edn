@@ -2,7 +2,7 @@
 ;; All rights reserved.
 
 
-{:paths     ["src" "resources" "templates" "target"]
+{:paths     ["src" "resources" "templates"]
 
  :deps      {com.datomic/ion       {:mvn/version "0.9.26"}
              org.clojure/data.json {:mvn/version "0.2.6"}
@@ -16,7 +16,8 @@
  :aliases
             {:dev {:extra-deps {com.datomic/client-cloud {:mvn/version "0.8.63"}
                                 com.datomic/ion-dev      {:mvn/version "0.9.176"}
-                                http-kit {:mvn/version "2.2.0"}}}
+                                http-kit {:mvn/version "2.2.0"}}
+                   :extra-paths ["target"]}
 
              :js-release   {:extra-paths ["target"]
                             :extra-deps {org.clojure/tools.namespace {:mvn/version "0.2.11"}}
