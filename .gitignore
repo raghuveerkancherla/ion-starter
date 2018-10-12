@@ -5,4 +5,4 @@ target/*
 .shadow-cljs/*
 node_modules/*
 out/*
-templates/.DS_Store
+*.DS_Store
