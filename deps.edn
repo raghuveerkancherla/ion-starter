@@ -11,12 +11,13 @@
              fulcrologic/fulcro        {:mvn/version "2.5.0"}
              ring/ring-core              {:mvn/version "1.6.3" :exclusions [commons-codec]}
              bk/ring-gzip                {:mvn/version "0.2.1"}
-             bidi                        {:mvn/version "2.1.3"}}
+             bidi                        {:mvn/version "2.1.4"}
+             http-kit {:mvn/version "2.2.0"}}
  :mvn/repos {"datomic-cloud" {:url "s3://datomic-releases-1fc2183a/maven/releases"}}
  :aliases
             {:dev {:extra-deps {com.datomic/client-cloud {:mvn/version "0.8.63"}
                                 com.datomic/ion-dev      {:mvn/version "0.9.176"}
-                                http-kit {:mvn/version "2.2.0"}}}
+                                }}
 
              :js-release   {:extra-paths ["target"]
                             :extra-deps {org.clojure/tools.namespace {:mvn/version "0.2.11"}}
