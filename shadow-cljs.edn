@@ -7,7 +7,7 @@
 
  :builds
  {:app {:target :browser
-        :output-dir "target/public/assets/app/js"
+        :output-dir "js-build/public/assets/app/js"
         :asset-path "/assets/app/js"
         :module-hash-names true
         :modules {:main {:entries [ion-starter.core]}}

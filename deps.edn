@@ -2,7 +2,7 @@
 ;; All rights reserved.
 
 
-{:paths     ["src" "resources" "templates" "target"]
+{:paths     ["src" "resources" "templates" "js-build"]
 
  :deps      {com.datomic/ion       {:mvn/version "0.9.26"}
              org.clojure/data.json {:mvn/version "0.2.6"}
